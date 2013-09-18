@@ -1,0 +1,185 @@
+.horiz-img {
+	padding: 20px;
+}
+
+.extra-padding {
+	padding-left: 80px;
+}
+
+.left-margin {
+	margin-left: 30px;
+}
+
+.inline-text {
+	display: inline-block;
+	padding: 20px;
+}
+
+.horiz-img, .inline-text {
+	vertical-align: text-top;
+}
+
+.vert-img {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.vert-img.small-vert {
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+.hor-text > li {
+	float: left;
+}
+
+.hor-text {
+	list-style: none;
+}
+
+.BN-Button {
+	display: inline-block;
+	background-color: salmon;
+	border-radius: 6px;
+	color: white;
+	padding: 25px 50px 25px 50px;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.LM-Button {
+	display: inline-block;
+	background-color: salmon;
+	border-radius: 6px;
+	color: white;
+	padding: 12px 30px 12px 30px;
+	font-size: 16px;
+	text-decoration: none;
+	border: none;
+}
+
+.OK-Button {
+	display: inline-block;
+	background-color: salmon;
+	border-radius: 6px;
+	color: white;
+	padding: 7px 10px 7px 10px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.NAV-Button {
+	display: inline-block;
+	background-color: salmon;
+}
+
+.NAV-Link {
+	color: white;
+	font-size: 16px;
+	padding: 0px 33px 0px 33px;
+	text-decoration: none;
+}
+
+.PAG-List {
+	list-style: none;
+}
+
+.PAG-List > li{
+	display: block;
+	float: left;
+}
+
+
+.PAG-Link {
+	display: block;
+	text-decoration: none;
+	color: salmon;
+	padding: 7px;
+	margin: 0px 5px;
+	border-bottom: 3px solid salmon;
+}
+
+.PAG-Nav {
+	border: none;
+}
+
+.PAG-Current {
+	border-bottom: 3px solid silver;
+	color: silver;
+}
+
+.blog-post {
+	display: inline-block;
+	width:100%;
+}
+
+.blog-post .blog-img {
+	float:left;
+	padding: 0px 10px 15px 15px;
+	clear:left;
+}
+
+.post-time {
+	color:silver;
+	font-size: 12px
+}
+
+.user-name {
+	clear:left;
+}
+
+.nested-post {
+	display: inline-block;
+	float: left;
+	width:50%;
+}
+
+.nested-img {
+	float:left;
+	padding: 0px 10px 15px 15px;
+}
+
+.second-nest-post .second-nest-img {
+	float:left;
+	margin-left: 27%%;
+}
+
+.bold-post {
+	font-weight: bold;
+	font-size: 14px;
+}
+.tab-list li {
+  display: inline-block;
+  list-style: none;
+  border: 1px solid silver;
+  border-bottom: 0;
+  border-width: 1px 1px 0 1px;
+  border-radius: 5px 5px 0 0;
+  margin: 0 0.5em 0 0;
+  padding: 5px;
+}
+
+.tab-list {
+  list-style: none;
+  padding:0;
+  margin:0;
+  margin-left: 10px;
+}
+
+.tab-list li a {
+  font-weight: bolder;
+  color: blue;
+  text-decoration: none;
+}
+
+.tab-info {
+  border-radius: 5px;
+  border: 1px solid silver;
+  padding: 15px;
+}
+
+.selected-tab {
+  padding-bottom: 1px; 
+  background: white;
+}
+  
