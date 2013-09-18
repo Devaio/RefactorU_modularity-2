@@ -71,6 +71,17 @@
 .NAV-Button {
 	display: inline-block;
 	background-color: salmon;
+	padding: 10px;
+	border-radius: 5px;
+	margin: -1px
+}
+
+.NAV-Button:hover {
+	background-color: cadetblue;
+}
+
+.LM-Button:hover {
+	background-color: cadetblue;
 }
 
 .NAV-Link {
